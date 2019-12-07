@@ -1,0 +1,214 @@
+The several pagance of the state shall find their pleasures.
+But where is he? then there's a pottle of less,
+That the string scorns the mortish kind of herself; the sea,
+I would not have you took him sleep,
+And show'd the rock of heaven and
+
+Epoch: 35
+
+Epoch 1/1
+91466/91466 [==============================] - 181s 2ms/step - loss: 0.9446
+&WER:
+How now, sir! What's your name?
+
+SHYLOCK:
+How now, sir! What's your name?
+
+SHYLOCK:
+How now, sir! What's your name?
+
+SHYLOCK:
+How now, sir! What's your name?
+
+SHYLOCK:
+How now, sir! What's your name?
+
+SHYLOCK:
+How now, sir! What's your name?
+
+SHYLOCK:
+How now, sir! What's your name?
+
+SHYLOCK:
+How now, sir! What's your name?
+
+SHYLOCK:
+How now, sir! What's your name?
+
+SHYLOCK:
+How now, sir! What's your name?
+
+SHYLOCK:
+How now, sir! What's your name?
+
+SHYLOCK:
+How now, sir! What's your name?
+
+
+Epoch: 36
+
+Epoch 1/1
+91466/91466 [==============================] - 181s 2ms/step - loss: 0.9411
+RINE:
+The county could I find them in the earth
+In hateful country and his princely brother too.
+
+KING PHILIP:
+Here comes the fool.
+
+OLIVIA:
+I have done it so, I know not.
+
+Bawd:
+What has he so poor against me? Where are these?
+
+Second Servant:
+Why, there is a good wit o' the second chamber
+To be a soldier of most constant knights,
+And so shall the good duty sometime been before.
+
+JESSICA:
+I will not say I have delivered me to my heels.
+
+BASSANIO:
+I will tell you at all that is to be so: but I w
+
+Epoch: 37
+
+Epoch 1/1
+91466/91466 [==============================] - 181s 2ms/step - loss: 0.9374
+The which is worth the sun to all the world.
+
+KING RICHARD II:
+Norfolk, the sound man is despised.
+
+KING RICHARD II:
+Norfolk, the sound man is despised.
+
+KING RICHARD II:
+Norfolk, the sound man is despised.
+
+KING RICHARD II:
+Norfolk, the sound man is despised.
+
+KING RICHARD II:
+Norfolk, the sound man is despised.
+
+KING RICHARD II:
+Norfolk, the sound man is despised.
+
+KING RICHARD II:
+Norfolk, the sound man is despised.
+
+KING RICHARD II:
+Norfolk, the sound man is despised.
+
+KING RICHARD II:
+Norfo
+
+Epoch: 38
+
+Epoch 1/1
+91466/91466 [==============================] - 181s 2ms/step - loss: 0.9343
+zen:
+My lord, my lord, the world will wear the lion of the state,
+Which I will leave thee to the greatness of my pride.
+
+BISHOP OF WINCHESTER:
+Why, then the time is come to pass away and seen to-morrow night; which the with thief
+Should like his life and little scruple of her face,
+The which he comes to cross the streets of many and the office
+Which the commands of Hereford to the Tower,
+And therefore have I seen the governor's country starve,
+And so distract a slave-like soul, who lend the sun
+
+
+Epoch: 39
+
+Epoch 1/1
+91466/91466 [==============================] - 181s 2ms/step - loss: 0.9307
+&WER:
+I do beseech your grace to pardon me.
+
+SILVIA:
+Ay, that I knew it to you as a poor man.
+
+CASSIO:
+I have no joy to say, I am a man
+more to be a courtier, I have been to strike at it.
+
+DUKE VINCENTIO:
+And so am I.
+
+OSWALD:
+Why, that's my lord amiss.
+
+CLIFFORD:
+Why, what a man is this?
+
+MACBETH:
+I am glad on't.
+
+SIR HUGH EVANS:
+Well, we will to my tent.
+
+CLOTEN:
+The night is free:
+Come to thy lady I will be the man
+In mine own personal safest hearts be found.
+
+CASSIUS:
+Why, sir, I think you a
+
+Epoch: 40
+
+Epoch 1/1
+91466/91466 [==============================] - 181s 2ms/step - loss: 0.9276
+r that sweet boy had thrown
+A slave, and a poor pride of death?
+
+Poet:
+Ay, that's a stranger: therefore thou wert best,
+But that I sent to thee and combat it is too good fair
+As I have seen thee for a man to do it with a service,
+And the remembrance of their practises
+Which should not be admitted that I have resembled
+With changeable did their hands and hate than thou
+And this my soul to hell.
+
+OCTAVIUS CAESAR:
+These are my sons,
+That my remembrance is no foolery.
+
+ALL:
+Amen.
+
+KING HENRY VI:
+For
+
+Epoch: 41
+
+Epoch 1/1
+79750/91466 [=========================>....] - ETA: 23s - loss: 0.9202^CTraceback (most recent call last):
+  File "recurrent_keras.py", line 60, in <module>
+    model.fit(X, y, batch_size=BATCH_SIZE, verbose=1, nb_epoch=1)
+  File "/home/xxx/.local/lib/python3.5/site-packages/keras/engine/training.py", line 1039, in fit
+    validation_steps=validation_steps)
+  File "/home/xxx/.local/lib/python3.5/site-packages/keras/engine/training_arrays.py", line 199, in fit_loop
+    outs = f(ins_batch)
+  File "/home/xxx/.local/lib/python3.5/site-packages/keras/backend/tensorflow_backend.py", line 2721, in __call__
+    return self._legacy_call(inputs)
+  File "/home/xxx/.local/lib/python3.5/site-packages/keras/backend/tensorflow_backend.py", line 2693, in _legacy_call
+    **self.session_kwargs)
+  File "/home/xxx/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 895, in run
+    run_metadata_ptr)
+  File "/home/xxx/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1128, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/xxx/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1344, in _do_run
+    options, run_metadata)
+  File "/home/xxx/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1350, in _do_call
+    return fn(*args)
+  File "/home/xxx/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1329, in _run_fn
+    status, run_metadata)
+KeyboardInterrupt
+(base) [xxx@g1 textGenerator]$

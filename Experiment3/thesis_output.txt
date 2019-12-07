@@ -1,0 +1,1303 @@
+
+(base) [xxx@g14 textGenerator]$ python3.5gpu recurrent_keras.py
+Using TensorFlow backend.
+Data length: 63079 characters
+Vocabulary size: 101 characters
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+lstm_1 (LSTM)                (None, None, 500)         1204000
+_________________________________________________________________
+lstm_2 (LSTM)                (None, None, 500)         2002000
+_________________________________________________________________
+time_distributed_1 (TimeDist (None, None, 101)         50601
+_________________________________________________________________
+activation_1 (Activation)    (None, None, 101)         0
+=================================================================
+Total params: 3,256,601
+Trainable params: 3,256,601
+Non-trainable params: 0
+_________________________________________________________________
+2019-12-02 16:33:26.254370: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-12-02 16:33:26.373822: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1392] Found device 0 with properties:
+name: Tesla P100-PCIE-12GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:04:00.0
+totalMemory: 11.91GiB freeMemory: 11.66GiB
+2019-12-02 16:33:26.373920: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-12-02 16:33:26.765380: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-12-02 16:33:26.765451: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0
+2019-12-02 16:33:26.765468: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N
+2019-12-02 16:33:26.765631: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11281 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:04:00.0, compute capability: 6.0)
+−q−−−−−−−−−−−−−−ggggg􀀀!E-------GGNNqqPPdkkk≥≥≥≥≥≥≥>>>>>“≥]]]“““WPPPVVV≥≥≥≥≥≥≥≥≥>>>>>]]]]---------yyGGjjjjjjjjKKKKKKKKKKKKKKKKKKK{QQ)))))))PPPPPP**VVVVVsss[[}dd}≤≤≤sss]]]]-------yGGGMMMMMMMMKKKKKKKKKKKKKKKKKKKK{{///////PP{dddd44HH≤HeeeellQQQQQQQAAAAATT77“““WW888II≤≤≤sBss>>]]]]--------yGGGMMMMMMMMKKKKKKKKKKKKKKKKKKKK{{///////PP{dddd44HH≤HeeeellQQQQQQQAAAAATT77“““WW888II≤≤≤sBss>>]]]]--------yGGGMMMMMMMMKKKKKKKKKKKKKKKKKKKK{{///////PP{dddd44HH≤HeeeellQQQQQQQAAAAATT77“““WW888II≤≤≤sBss>>]]]]------
+
+Epoch: 0
+
+recurrent_keras.py:65: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(X, y, batch_size=BATCH_SIZE, verbose=1, nb_epoch=1)
+Epoch 1/1
+1261/1261 [==============================] - 4s 3ms/step - loss: 3.6322
+1     eeeeeeeeee  e eeeeeeeeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+
+Epoch: 1
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 3.3899
+4     aaa a aa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa aaa a
+
+Epoch: 2
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 3.3266
+􀀀 e eeeteeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+
+Epoch: 3
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 3.2569
+@ to to t to  to t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t
+
+Epoch: 4
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 3.0123
+< tor the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the th
+
+Epoch: 5
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 2.7515
+; tere the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the t
+
+Epoch: 6
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 2.5895
+≤ the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the th
+
+Epoch: 7
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 2.4365
+􀀀 tor tom te tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+
+Epoch: 8
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 2.2967
+− the the top-k and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and
+
+Epoch: 9
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 2.1674
+. atithas a the for the seratering attributes for the for the singeratatites tor-k query for the singeratation a the for the singeratation a the for the singeratation a the for the singeratation a the for the singeratation a the for the singeratation a the for the singeratation a the for the singeratation a the for the singeratation a the for the singeratation a the for the singeratation a the for the singeratation a the for the singeratation a the for the singeratation a the for the singeratati
+
+Epoch: 10
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 2.0510
+2 the top-k query performance the top-k query performance the top-k query performance the top-k query performance the top-k query performance the top-k query performance the top-k query performance the top-k query performance the top-k query performance the top-k query performance the top-k query performance the top-k query performance the top-k query performance the top-k query performance the top-k query performance the top-k query performance the top-k query performance the top-k query perfor
+
+Epoch: 11
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 1.9321
+1 the for the for the mor in the the top-k query of the for the top-k query we for the for the more the the top-k query we formance mentoring bitmap approach for the for the morithin the top-k query of the for the top-k query we for the for the more the the top-k query we formance mentoring bitmap approach for the for the morithin the top-k query of the for the top-k query we for the for the more the the top-k query we formance mentoring bitmap approach for the for the morithin the top-k query o
+
+Epoch: 12
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 1.8345
+å the bitmap approach is the bitmap approach is the bitmap approach is the bitmap approach is the bitmap approach is the bitmap approach is the bitmap approach is the bitmap approach is the bitmap approach is the bitmap approach is the bitmap approach is the bitmap approach is the bitmap approach is the bitmap approach is the bitmap approach is the bitmap approach is the bitmap approach is the bitmap approach is the bitmap approach is the bitmap approach is the bitmap approach is the bitmap appr
+
+Epoch: 13
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 1.7329
+􀀀 the example, and deve and deta dete dete the example, and and deverented and deverened derentered and deverened derane derentered and deverened derane derentered and deverened derane derentered and deverened derane derentered and deverened derane derentered and deverened derane derentered and deverened derane derentered and deverened derane derentered and deverened derane derentered and deverened derane derentered and deverened derane derentered and deverened derane derentered and deverened de
+
+Epoch: 14
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 1.6460
+@ the sime somplex the for the semend and the for the dites faster than the bitmap ard and and the dataset fas the filtering bitmap ard the BSI attributes for the dites for the simensions and s in the sumber of res and bitmap ard the BSI attributes for the dites for the simensions and s in the sumber of res ond bitmap ard and and the dataset fas the filtering bitmap ard the BSI attributes for the dites for the simensions and s in the sumber of res and bitmap ard the BSI attributes for the dites
+
+Epoch: 15
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 1.5546
+d and Java SII striam MMIPI Matrican Matricat MMAPLII Memory Mallorithm VM CPUUI EMaly oppratan((B) B) 399 349999999555 55499999959 559 559999999955 559 559999999955 559 5599999999955 559 559999999999955 55999999999959 5599999999999599 5549999999999599 554999999999599 554999999999599 554999999999599 554999999999599 554999999999599 55499999999599 554999999999599 554999999999599 55499999999599 554999999999599 554999999999599 55499999999599 554999999999599 55499999999599 554999999999599 55499999999
+
+Epoch: 16
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 1.4827
+B in the top-k query weight of the top-k query weight the top-k query weight of the top-k query weight the top-k query weight of the top-k query weight the top-k query weight of the top-k query weight the top-k query weight of the top-k query weight the top-k query weight of the top-k query weight the top-k query weight of the top-k query weight the top-k query weight of the top-k query weight the top-k query weight of the top-k query weight the top-k query weight of the top-k query weight the t
+
+Epoch: 17
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 1.4100
+5 the top-k items.
+Figure 10 shows the top-k items. The top-k items.
+Ther the top-k items.
+The top-k items.
+Ther the top-k items.
+The top-k items.
+Ther the top-k items.
+The top-k items.
+Ther the top-k items.
+The top-k items.
+Ther the top-k items.
+The top-k items.
+Ther the top-k items.
+The top-k items.
+Ther the top-k items.
+The top-k items.
+Ther the top-k items.
+The top-k items.
+Ther the top-k items.
+The top-k items.
+Ther the top-k items.
+The top-k items.
+Ther the top-k items.
+The top-k items.
+Th
+
+Epoch: 18
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 1.3398
+’time of the single attribute top-k query time is measured algorithm is the number of stices approach is a sime of the sime simension of the single attribute top-k query time is measured ald dite the the sume time simensions of the single attribute top-k query time is measured algorithm is the number of stices approach is a sime of the sime simension of the single attribute top-k query time is measured ald dite the the sume time simensions of the single attribute top-k query time is measured alg
+
+Epoch: 19
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 1.2609
+! the BSI approach ss case is a single attribute top-k query of the BSI approach ss case is a sime sions is dase in dataset in a sime sion a dasa is a sing a sing bitmap approach ssing is das a day a dataset in a sise of dase in a mapres of resurising dase is das in a das a s a s a s a s which has a single attribute query performance monitoring system is dase is das a day a dataset in a sise of dase in a mapres of resurising dase is das in a das a s a s a s a s which has a single attribute query
+
+Epoch: 20
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 1.1956
+N top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-k query of the top-
+
+Epoch: 21
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 1.1309
+−100 0
+3.Memory Metric VM memory oateodetaritere(GB) 3 s mamory realerated(GB) 3 s s memory rederateded(GB) 3 0 0
+3
+Toperory Metric VM memory oaterater((G)) 1 s s menory rederatite the BSI approach. The BSI approach is the number of records in a mandion and the performance measurements.
+The BSI approach. The project and cane bitmap array Bitmap array Bitmap array Bitmap array Bitmap array Bitmap array Bitmap array Bitmap array Bitmap array Bitmap array Bitmap array Bitmap array Bitmap array Bitm
+
+Epoch: 22
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 1.0696
+3 the performance monitoring system is a set of a grouping algorithm is a baseline approach for anomaly detection of a single attribute query weight of the single attribute top-k query weight of the section is a baseline approach for anomaly detection of a single attribute query weight of the single attribute top-k query weight of the section is a baseline approach for anomaly detection of a single attribute query weight of the single attribute top-k query weight of the section is a baseline app
+
+Epoch: 23
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 1.0035
+% the top-k query of the collections.
+The ligter than the top-k stream API approach is a grouping output
+1 A datasets the multion the lust of this section is the top-k query of the lowest 1 performance score VMsssisescondinged the top-k query of the collections.
+The ligter than the top-k stream API approach is anolg thm prouling of the grouping-operations. The top-k query of the collections.
+The ligure the the top-k query of the complexity of the three approachess the costor than the top-k query
+
+Epoch: 24
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.9436
+) to filtering step in the detecting the incomplexity of those the expersed defined in this project end the array the use time sited and the detection figure shows the dingle attribute detection for the inemplimed and then the experiments and the detection figure shows the dingle attribute top-k query with the data in a time coule the use complexity of those the infume the time complexity of O(n)
+Ons
+while the detercente the single attribute top-k query is used in the number of results example f
+
+Epoch: 25
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.8836
+2 the bitmap index in the project in the bitmap approach by using the infrastructure performance monitoring system, anomaly detection has simination approach by using the infrastructure performance monitoring system, a time-complexity is O
+􀀀
+n
+b
+b
+
+
+T
+
+b
+
+())
+For multiplicing inflastructure performance Monitoring Data strrathe propore mencul mathor with the bitmap in the number of sime monitoring system, approach the bitmap in bitmap A sime with the project in the single attribute bitmap inde
+
+Epoch: 26
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.8193
+≥ the performance measurement: On ind measurement: On the BSI and and onh
+100 is the number of records in the number of records in the number of records in the number of records in the number of records in the number of records in the number of records in the number of records in the number of records in the number of records in the number of records in the number of records in the number of records in the number of records in the number of records in the number of records in the number of recor
+
+Epoch: 27
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.7667
+E a set of propestion an istraptic prouping attribute rapperfence as a setrin the for the infrastructure performance as a sers in in the array is detains the result is performance as a sers in in the array sort approach. In this project, in indexing the sorting used in this
+project is S is a sect or prouping a stream API approach. In this project, in indexing the infrastructure performance as a sers with the array of reachin in the retric in the array sort approach. In this project, in indexing
+
+Epoch: 28
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.7097
+9 to for the top-k query of the BSI approach on comparison the performance monitoring systems of time complexity of this the and d filted
+ngtribute dataset from tor grouping dimensions. The first dimensions
+grouping top-k query of the BSI approach vs couting the sum
+of minuted data collection top-k query of the filtering contains top-k query of the components than the filtering time compression on bit-sliced data in The filtering bitmap A for the top-k query of the filtering compression
+to the p
+
+Epoch: 29
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.6555
+Jan the result of experimens for the result on experimens the result to evaluate the the top-k query performance monitoring on a stream.
+The topology model of the realition one
+array-sort. The result as che second sor line the experiments is to and ovelute the performance monitoring system, and outmute of the result on exayy of filtering and summation on to malues out and desines the result desents to geteritevelouted as a grouping output 1 A dataset; Output: The sum of memory usage of virtual m
+
+Epoch: 30
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.6100
+bitmap Apray B is the number of slices in the score than the baselined approach top-k sequential sort approach the mont of the metric is the score attribute bitmap array B in the number of records in the dataset.
+Finuter and the score complex that hate time souttras toregrouping and the multiple attributes second top-k buention of tor alomes data bucket, which has an onomal out algorithm for a s the sumer of bins of the score attribute bitmap ADD a constann steps. fouller to ch secore top-k quer
+
+Epoch: 31
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.5580
+% to and sepress and array-sumnary of top-k items
+1 Function Approachms Attributes
+- sumber of bins slowes the detail vilumble of ard compine the sest.
+The project generates a performance comparisons on theses and bit-sliced and based and shars reselts as a set-bit dasataset are prouping-by attributes
+top-k sumbin is thas sepends as a alloding renallyse datasets.
+Figure 10 demonstrates the performance score attribute
+d Number of mons results of two different data analytics
+on the simensions grou
+
+Epoch: 32
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.5122
+N the bit-sliced indexing top-k query is based on miltiple attributes the BSI complexity is O(nlogn). In this project, in addition top items. The mode malue of the top-k query performance for BSI and Java stream op is in last in to secome the paray to ofomore the top-k preceding wetect are erements in the dataset. For example, the query time is math top-k asd the top-k query performance for shows and inte valies of the incoming detection. The Java Stream to compute the sum of memory usage of vir
+
+Epoch: 33
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.4718
+7 Figure 14
+shows the detail view of the trrae approach single attribute top-k algorithm.
+We single attribute top-k array-bitmap.
+Step 4. Senerate filtering bitmap in the top-k bitmap from bit-wise operation “sumB AND bits filterithms will erents the bit-sliced indexing the top-k bitmapic in bitmap A bin bitmap array B tram data te top time complexity than the Java Stream API approach bits time complexity than the Java Stream API approach is so timelifidation.
+We number of records
+in the top-k a
+
+Epoch: 34
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.4333
+∙ In the project objection in the result is a sioue as an a peroact value of an
+intram A simmapso
+wennt bitmap indexing refersed to the result as the following steps.
+Step 1. Senerate an the score attribute top-k queries and crossing attribute filtering process conpured of tho ertorid values of objict vas ex moninomont data bucket, which has an anomalous metric time. The moathoons
+domple dithat value of for compute alcorithms on an attribute
+value of a
+colloct mopers oum of mance of a
+bitmap sor
+
+Epoch: 35
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.4023
+In this project, the the binning bitmap approach, and array-bubble-sort.
+On this project, the top-k
+query or abtid top-k and coult attributes withon
+the provodat on a raiged the top-k query.
+Artualtert, top-k query.
+An example of the tho propise, and arraysolted in this
+project, the the top-k
+query weighted top-k query.
+As dasconserty to ondogy the performance Monitoring
+Systems.
+For a single attributes top-k query.
+A simeation of threeropedty in the top-k
+queries. Algorithm is the top-k query.
+
+
+Epoch: 36
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.3682
+ and experiment arious dased and
+and aname, are, andem, ande are are are array BSI anomaloun matricule filtering and
+sumparien arimensice approach time complexity is de
+performance arious an examples anderases an evara sorted array, In the top-k queries are bas descriped an the BSI be s an a
+bitmap approach bitmap arithm time campleseturn data exappleed datasets an ament worted arementil infrastructure meanue as an examples in a bit-sliced and bitmap aribut ar and time ardation operation In thi
+
+Epoch: 37
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.3418
+} In this project, the top-k queries are based on the time the number of grouping it mas dot-in the three ald deversial in the experiment on tho sume complexity of using bitmap approach using the use case of thrs the the number of grouping it mas doting time the ngouping datasetsure complexity of those three approach. To comparison oumble of single attribute;
+G - gunericod aragys. using the top-k query performance monitoring system of tho dingle dataset with measures, while devians unction sectu
+
+Epoch: 38
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.3153
+” to be generate fantering query plocess and rig- sing sted indexing the bitmap array B then the results of the batk bit-wise operation betwer the bitmap indexinglatate B thos typeng bute top-k bitmap.
+Step 4. Secents the the majorition algorithm is the time complexity than BSI dependent bitmap approach binning
+bitmap bitmap bask based and
+BSI. The X-axis is for
+the number of records ince data bucket, which has ann been bustrent and thent crossing attributes bitmaps cane bitmap binnnbing bitmap
+
+Epoch: 39
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.2951
+The output is O{t;;;; :;:;;;;;;;
+};
+rmmulume: monitoring system dotame There performance monitoring systems of virtual machines, the time complexity is O(nlogn). In this project, th trosuted virtual machines grouping by the anamared deverimeding to fit-sliced monting. For mine of the matriple attributes top-k query gunction step 4 poremones the bit-sliced indexing summation top-k profored to chouts dataset for tho muntidime system dod deaminations types of the data seated in various dith virtual
+
+Epoch: 40
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.2746
+} In the figering bitmap as a data structing has maximy, and bitmap array B[b-2]. For each of the B[i] where a single attribute query and filtering. We istreat in the array approach ty comparing BSImappop. Batisute values for mintiplication andation. In this project, we use the number of bitmap for anomarimentaring in for top-k query performance measurement in minlimecord
+bute.
+The sum time mamuary as a grouping output
+1 top-k items, a dingreated apploach for 10top-2 time for top-k ise
+and than
+
+Epoch: 41
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.2650
+
+12 end
+For multiple attributes weighted to alize data based on
+evert the comparinn data an approach evaluated various multiple attributes grouping, the BSI and bitmap approach using the bit-wise operations is the R[Q]iaig time complexity of this
+section, we define the example
+case of a single attribute CPU swap time.
+5.
+Table 4: single attribute query with filtering, while MAQuery
+denotes a single attribute query with filtering, while MAQuery
+denotes a single attribute query with filtering, whi
+
+Epoch: 42
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.2414
+’this project, we use the BSI and cain a
+types ouppresconsie prosling and summation. The Java Stream API uppromection users to anolesent aralysis indexing the BSI
+approach binnlowe the bitmap
+binnabin bitmap approach for the use case of
+the top-k query with crossing attributififies for each algorithm.
+The BSI approach for the summation algorithms in this paper is the array-bubble-sort time complexity, the BSI grouping propersemed. on the BSI and binsing bitmap approach in the use case of the of
+
+Epoch: 43
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.2291
+ing systems as morted array-bibut-our or grouping and sum
+at un the sypentable dasa is a set of propprempence comparison.
+The BSI approach to compart che simeappoodal sor
+enoud of the cardinality of but it is iter s algorithm (Bithatto the binal to
+chous contains andases as a baseline approach for performance comparison.
+40
+0 so apporache besud on a basell we compute to chan we
+compression as it was sowt to an which has on oferate farches
+a sers on a by using bitmap approaches are both 10
+times
+
+Epoch: 44
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.2221
+We sumB as on the complexity of the three approaches. The bitmap approach time complex th than Java Stream API.
+The first grouping an store attributes. For the multiple attributes (m),, ant of-s and thes grouping experiments on store data expliterents from s attribute value of a
+collect tom k sort and then the results of evaluating the three approaches: the BSI approach.
+To compare the time complexity of thost reager the top-k query for the inerate the filtering BSI attribute and one acriese the
+
+Epoch: 45
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.2119
+* return T
+Algorithm 2: Array Multiple Attributes Sum Top-k
+Input: R - dataset;
+Q - query weight of the single attribute;
+k - number of top items;
+P - max or min for the top;
+F - filtering range;
+Output: T - top k items
+1 Function SAQueryArray(R,Q,K,P,F)
+2 for i←0 to k by 1 do
+3 s(i) = R[1](i) for the top-k query with crosping attributes. Therefore, thenn evervire of the
+75
+K filtering
+Bitmap A Sumber of BSI using BSI on Figure 1
+s.
+Therrifite sowt the stream API performance score VM Metor
+to su
+
+Epoch: 46
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.2003
+bitmaps, the
+performance of a bitmap for a single attribute group-by performance for BSI and Java stream API performance comparison. We use the Java Stream API approach. Figure 11 shows the detric in the section teconologies coneration. The Java stream API approach time complexity is de
+filted the number of grouping-by attributes g, the BSI
+geperaning the infrastructure conitorent. In this project, we use datasets [25] with the datasetion examples the performance comparison. We use the Java Stre
+
+Epoch: 47
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1958
+Property VM UUID 333 - -
+1.Property datastore name 12 - -
+2.CPU Metric VM CPU swap wait(ms) 1100 13660 0
+2.CPU Metric VM CPU swap wait(ms) 1100 13600 0
+2
+3.Memory Metric VM memory swapped(GB) 32 4 0
+3.Memory Metric VM memory overhead(GB) 3 0 0
+33Memory Metric VM memory swapped(GB) 32 4 0
+3.Memory Metric VM memory overhead(GB) 3 0 0
+33Memory Metric VM memory swapped(GB) 32 4 0
+3.Memory Metric VM memory overhead(GB) 3 0 0
+33Memory Metric VM memory swapped(GB) 32 4 0
+3.Memory Metric VM memory overh
+
+Epoch: 48
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1855
+k a ret-bite on the excering the incoming data bucket, which has an anomalous metric. A metric VM CPU swap wait (ns) as the top-k ranking. For a monslrativ of a totail groperty of attributes in a top-k
+iter. Osed a set-at and bitmap erred and a sumbin with com ressing and twe three performance monitoring
+dystem [7] for the surtaplo ettributes
+After the 30 setwet a fitmap the three approaches andereded andex in the experiment a settem in the experiment eveluates varie the tep-k query are algorith
+
+Epoch: 49
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1808
+jection is the cares the tep of grener for the top-k query without crossing attributes filtering.
+Figure 15 showe the better performance in the bitmap indexing query algorithm
+(Bitmaptop-k). The the BSI approach ty coult be used wisl experimental setucning sypev in the
+dataset. A set-bit is milliser than the binning bitmap approach in the use case of crossing ettributes
+filtering.
+Figure 15 shows the average performance comparison of the three approaches: bit-sliced approach in the bumerof retur
+
+Epoch: 50
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1759
+map array B.
+Step 3. Iterate the bitmap array B to an the BSI attribute value by performance comparison. 40
+Figure 10 data analytic of the score attribute. Therefore, the rest tion, the complexity case
+time complexity is O(n) while the worst case time complexity is O(n) while the worst case time complexity is O(n) while the worst case time complexity is O(n) while the worst case time complexity is O(n) while the worst case time complexity is O(n) while the worst case time complexity is O(n) whil
+
+Epoch: 51
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1719
+queries are processed using bit-wise
+operations of the bit-slice ase the bit-sliced and bitmap indexing approaches propoct bitmap sumB and bitmap A is iot ate aterations is filtering bitmap A fro stem contains the bunbers algorithm (s), the BSI approach is 4 times
+faster the bitmap array B to pre cress
+a sigh case tie if rescond dith t crens top la gre etems the bit-sliced and bitmap indexing approaches propode tie a bit-sliced and bitmap indexing approaches propoct cintual sorting attribute top
+
+Epoch: 52
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1631
+< to 9 for all 75 metrics
+in a 700K dataset. Table 4 shows the of the top-k query from 30kkk. Algorithms
+for the single attribute
+top-k queries. Iterded on the evaluate
+and columnt algorithm array. It the prouping algorithm is a baseline approach for performance comparison.
+4. Detection the incoming data bucket, which can be for a single attribute arraystof. [4]
+and the top 2 nomestrate. Bitmap array B[b.2], and andey. In alovers out attribute as an example. Bitmaps are knowne data in a returcti
+
+Epoch: 53
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1614
+Number of bins in the score attribute bitmap array. B.
+Temection detection ittem value, array-big O chosest aid bit-wise operation for the bitmap of each slice.
+56
+
+A nigereats cous a seach in bitmap array B and chere 333 - -
+1.Property datastore name 12 - -
+2.CPU Metric VM CPU percent ready 10 5 0 0
+MamoL) Number of slices gre exallyees usection. We used Fur exampleset: Rearing BSI Morective CPU twaictMevill the 3 ho use the ngrage 1: meach) Merring
+BSI grouping approach, in the crome tien Secr
+
+Epoch: 54
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1583
+In the CPU architecoupa.
+It conting scenables a dingle attribute query with filtering, while MAQuery
+denoters could conisg contains on the CPU ardition top-k query with crossing attributes filtering. For max inform algorithms using bit-sliced indexing algorithm; meanwhile, the program cecoud laigy of the BSI approach to the stream API approach. The Java Stream API approach. Figure coctmonstratest value and the performance comparison. 700K swown to on the CPU attribute value algorithm for multipl
+
+Epoch: 55
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1559
+e monitoring and optimization.
+11
+3 TOP-K QUERY PROOOPEEvIRO R R ROMs sum
+As
+c is it
+to
+the number of recorssent wowe
+dais, 22 0 0 32
+6.
+PU Metric VM CPU setcont(m)) 164 59600 0
+2.CPU Metric VM CPU swap wait percent(%) 34 8 0
+2.CPU Metric VM CPU summed percent % 2 mons algorath for large details contains Dation, xue in the
+sop-k list repery to be 10 do
+6 dy(s): = R[1](i)*)[1]] 3 ho
+n it at
+inelters: nowe 10 ale 10 pore
+perturctes: Ger and ximension Table 2: 00 Top-k query is the grouping Algorit
+
+Epoch: 56
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1512
+2 times slower than the
+binning bitmap approach cancot be used with multiple attributes (m).. Figure 2 shows the pseform bit of a different the pest
+on users to geform houttre tort dimensions grouping. At 1 . from ster value simens for the score bitmap as the bitmap indexing query algorithm
+(Bitmaptop-k). The performance comparison of the the complexity is de
+centire the number of slices (s), the word size of the
+computer CPU architecture (w), the number of attributes (m), and the number of reco
+
+Epoch: 57
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1489
+The output is O{O1;O2; :::;Om}.
+In the remaining part of the BSI approach to the stream API approach. To compare the dataset. Figure 18
+illust ate the dataset and a set-peredated leser details on the enalts on a metric tort of the three approaches: the bitmap
+approach time complexity de desced the not-slouds usidgla attribute query performance results of 80+ in the domens a multiple attributes query performance results of 80+ different stalls is natases. The semontar of the complexity could be e
+
+Epoch: 58
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1468
+! a real-time monitoring system, anomaly detection (also out attributes
+- and the deconds in the example, a detarin fuet it a prodecond. The records oud of range
+7 Function sescrale of a dingle attribute varies and it case the rompremsed an informating array of amplemed. The results of the evaluation of two grouping algorithms in the project performance moanutoring system, anomaly detection (also output: R - damalited and array-bubble-sort algorithm, and 2 times faster than the binning bitmap ap
+
+Epoch: 59
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1444
+×n the remaining part of this section, we describe the two approaches an uacoble the using a tep at
+an
+contains the detail finctoping dataset. A set abalyses in in inlided the bit-sliced indexing (BSI), bitmap, and sequential sort approaches amonow deconds bure to k, query to houds could bit-sliced indexing (BSI), bitmap, and sequential sort approaches amonow deconds bure to porotommuce the bitmap binning bitmap approach in the binning bitmap approach for the use case of
+the top-k query with cro
+
+Epoch: 60
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1419
+jection is the number of dimensions in the the in the
+bigne s whe have 12 de
+ers rase of derang data stame of our machine iter the bitmap in bur ind and virtual machines shows as a solid greerration and in the prosect rederine in the experiment is thin virt data
+day, we heve thar a maprouth filtering BSI using is a data BSI. The chirs of compressed with bit-sliced and rite in the experimencs.
+The BSI to greurion swed to gev rang upproach is use case of distinct of Data is a data structure which
+
+Epoch: 61
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1415
+) 2.CPU Metric VM CPU coStop(ms) 13564 49204 0
+2.CPU Metric VM CPU compod(ms) 13564 49200 0
+2.CPU Metric VM CPU latency(%) 564 5480055222022272 Comporing Memory used is tee prouping, the BSI complexity could be expressed as:
+O
+ n
+w
+
+(1)
+32
+For multiple attributes grouping, with the Java Stream API for the performance Measuremem: Single Attribute Computinn SDacord CMUCI IDachoden GroupingBISI) Geverality, the BSI approach is 4 times
+faster than the baseline approach top-k
+sequential sort,
+and 3
+
+Epoch: 62
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1399
+9 10 0
+5.Memory Mettic VM msmony balloon(GB) 69 10 5
+4 Than 32GBorag(t)) = = V44 54.94 for excops geverach resuln data buckets vartory on anomary the value of CPU swap time value and arr the top-k query without crossing attributes filtering score attribute use the hal mach use of bitmap and B that parte vata experiments and result the out utimes of the monitoring system, the BSI
+grouping approach has levers data hava stream API approach. The query
+time measurement unit is millisecond.
+58
+8.5 Per
+
+Epoch: 63
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1352
+” and event correlation analytic.
+40
+A to ono size of 70 as an example. Bitmaps are known incrude in pres of records us the number of slices in a Bitmap sort alg fille top-k query is data in a real-time monitoring system, anomaly detection (also out attributes
+filtering.
+For multiple attributes query is perfofmed
+ant as a neary is a maperimentales of ningle actrobs it ran ind performance results in pared of raining using is has an inforing attribute for performance comparisons of the incoming da
+
+Epoch: 64
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1349
+L Algorithm 2 shows the lineat for crmbition andition the from bitmap each bitmap contains N bitmap based on the grouping bith rrousimging data stuck r grouping attributes, and the ligred rofurs ry algorithm, while the number of bitmap ercarte time complexity is th
+slowest [2]], and a seat a stalle generality of the grouping bit- licterd,
+with the gerfinabbbid of threefore, the fulther complexs to multiple attributes (S), and the
+k Query
+records in the last 15 bits conne rouling grouping, procer
+
+Epoch: 65
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1328
+ith sizes of 100K, 300K, and 700K records. The
+log(t) or 750K 100K 50
+6.Performance Score VM CPU contecceds we
+get the bitmap array B in a reve
+11
+Sromer Monitoring System,
+The BSI grouping approach is the bitmap approach by using
+Roaring bitmap and on the BSI and Figure 10 cholss shage 10, bitmap indexing wore arday--b- larsetorm data than have the monitoring
+and the a toral bitmap as the bitmap array B and reve sion
+an attribute
+f - man heve algorithms. A AHD A” BSI grouping attributes. Table
+
+Epoch: 66
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1317
+
+11 end
+For multiple attributes weighted top-k query ard the thr example, a troms sen bitmap array B[b-bin For each of the single attribute;
+k - number of top items;
+P - max or min for the time caster encoding. For the 700K dataset is of the time castion
+approach top CPU use the time complexity of Java
+Stream API performance comparison.
+We use the Java Stream API approach. The query
+time measurement unit is millisecond.
+58
+8.6 Performance Measurement: Single Attribute (CPU Swap time) with the ti
+
+Epoch: 67
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1311
+10 CONCLUSIONS
+In this project, we evaluated the uscrs sorted and anay.sien.
+Figure 10 shows the average performance comparison.
+We use the Java Stream API approach. The query
+time measurement unit: the summation on the gecerinal of the Java 8 bit-in examples the performance on a 700K dataset for two dimensions grouping BSI vs. Java stream API approach time complexity is de
+cented as the baseline
+approach and sequential sort, and 3 times faster than the Java stream API
+approach. Figure 17 shows
+
+Epoch: 68
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1289
+Querity is O h
+which is the indexing retror a top-k query without crossing attributes filtering for one single attribute query performance results of 80+ intume cards out the lige the us relle top-k query as the lest reperty a for the sectian sopt are that generated a performance
+comparison of tha incoming data and previous a virtual machine operating use data is chersing a number of records in the dataset.
+7
+Figure 4: Bitmap 1--bat better thres and the record top-k array-bubble-sort. Of than th
+
+Epoch: 69
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1274
+] of the three dothin is the bitmap indexing query algorithm
+(Bitmaptop-k). the biner cacter than the based on the bitmap indexing query algorithm (Bitmaptop-k). the bitmap indexing query algorithm (Bitmaptop-k). The provicum of the score attribute usidimenity approach top-k query with crossing attributes filtering for one single attribute for parformance comparisons of the three approaches: the bitmap array B trouping approach is a out the the time complexity of those three approach is abith li
+
+Epoch: 70
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1265
+d outside of the office hours now.
+For each of thoss dataset grouping algorithm.
+We introduce a bit-sliced indexing approach for the multiple attributes query performance comparisons of the time complexity. For
+single attribute approach, it re use attribute filtering algorithm (SAQueryFiltering performance comparison. 700K dataset, while the combined fucther the prove the
+weight of a time complexity. For single attribute atproach, wop-k array for bitmap approach for the use case of
+the top-k que
+
+Epoch: 71
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1261
+% 3 and step 4 hos
+top-k query performance. Parameters: n=700K; k =15.
+50
+Figure 18: The figure shows the top-k query performance. Camabition value to become sequential sort,
+and 3 times faster than the binning bitmap approach for the use case of
+the top-k query
+with crossing attributes filtering for one single attribute query, the bit-sliced indexing (b))) binning with top-k ranking. The vartour onvervior to face
+data expliting attributes. The filtert cach in var stume of the compineline conte.
+
+Epoch: 72
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1263
+×n the example figure first step, it generated a
+filtured data lay bithat ste muy it anouprrysch
+varubutes virtual machines grouping by virtual machine ID prish cac in masing toren as the filtering based on BSI. It example of the complexity of the three approaches: the query
+retupn fart result in shiline as the fildentr bren data structure which incorporates compressed in the bitmap binning system performs cont attributes value ranging for cimections which the bit-slices approach, in the bit-sli
+
+Epoch: 73
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1234
+D 32 to 9 for all 75 metrics
+in a 700K dataset. Table 10
+siggre 11 shows the dith ligler the BSIporally Medall than the last 15 performance comparison.
+4. Detecting the incoming data bucket, which cast 1 and Mum
+I. the single attribute
+top-k queries, multiple attributes top-k query with data haselined attribute filtering.
+For multiple attributes query weight of filtering and summat. The size compressed than the dataset. The thre arem stare data etalle from dash lase the thr multiple attributes t
+
+Epoch: 74
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1226
+2 times slower than the
+binning bitmap approach for the use case of
+the top-k query
+with crossing attributes filtering. Figure 15 shows the attribute value bitmap in been for a single attribute query.
+We identify four disglesteds
+of each of the score attribute, tep-k, algorithm for the score BSI attribute. The position of the bit-slice is enable 7. Bitmap bestectic and to represent a vatual betree with top-k query without crossing attributes filtering for one single attribute query.
+We identify
+
+Epoch: 75
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1216
++ time 2070 - -
+0.Temporal Metric End Time 2070 - -
+1.Property ESX Server 13 - -
+1.Property Virtual Mecrices in the binning betumn throuly grouping, the top-k queries Tecrong Metric Encoding Metrics EnDex.
+Are of 12 CPU sementering
+Metric VM memory attributes grouping (MAGrouping.
+4.2 BSI Hybrid EWAH Top-k Query Execution
+To compare the performance on a 700K dataset for two dimensional grouping performance comparison. 7000 15075 5.3Prop-by experiment: Tep-of-ley, andoriced and
+8 indexing BSI in
+
+Epoch: 76
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1209
+H to 9 for all 75 metrics
+in a 700K dataset. Table 10
+CPU swap time of the complexity of the top-k query performance for BSI and Java stream API top-k query techniques [13], the top-k range
+for the cardinalion of the comprens of the cardinality of the geturing a performance monitoring system [7] for the top-k query performance for BSI
+and Java stream API.
+Figure 21: The figure shows the performance score VMs” is the time to the top-k query of the computer as a sum. To the meach of the time compl
+
+Epoch: 77
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1203
+OPOSED APPROACH
+In this section, we filtert the use case of
+and outlier dingening data in a real-time monitoring system,
+dynamic thresholds based on have difler and in the top-k query of the BSI approach vs. the Java stream
+API approach comparison of the time complexity. As analyzed in the
+arp dition and the filtering attribute following steps.
+Step 1. Generate filtering attribute fol top-k query. A single attribute for the real-time of the incred the data collection time complexity of those thr
+
+Epoch: 78
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1188
+GB) 209
+M 9 VM CPU totalHz(MHz) 262
+8.3 Performance Score VM CPU uaicMMetser tha sum To CPI process an in ove attribute Catpue ty performance Measurement: Single Attribute (CPU Swap time) Query
+time is measured as millisecond. The “BSI Top-k array BetcenteDporolect se pre perferent-Metric Metric VM memory shared(GB) 294 30 0
+3.Memory Metric VM memory capacity(GB) 274 16 32270 0
+3.Memory Metric VM memory capacity(GB) 274 16 3260
+2 227.
+Table 10 scoreAttribute = R[2].
+Masurement: The further cante
+
+Epoch: 79
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1184
+use the hybrid cloud data center virtualization infrastructure of a data center worih vinualy
+fort anomaly detection.
+4. Detecting the incoming data bucket, which comparinn isemsidad and bitmap indexing from the top-k query without crossing attributes filtering for one single attribute for ranking query algorithm (BSItop-k). The complexity is
+lo
+the BSI dolle contains m ntm. could be expressed in one line. For clarity, we define the notations used further in this paper is the array-bubble-sort t
+
+Epoch: 80
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1179
+D A D A 2 this sogter than the Carrenality of the grouping datasets, we calculate the aggregate on the cardinality of the bit-sliced and bitmap indexing function, and previous and evaluate
+n virtual machines grouping by virtual machine ID.
+We split the grouping processing with Java Stream in the cardinality of bitmap c is equal or greater than k, then the of the bitmap in example of time complexity
+(O) O(n) when two grouping algorithms for the single
+attribute top-k query with fulter than the bi
+
+Epoch: 81
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1173
+
+.
+In step 4, after retrieving the top-k bitmap from step it the bitmap array B for the top-k query without crossing attributes filtering for one single attribute for anomaly detection.
+The majoritios of the single attribute;
+G - group-by attributes query weight of the single attribute;
+k - number of top items;
+P - max or min for the top;
+F - filtering range;
+Output: T - top k items
+1 Function SAQueryArray(R,Q,K,P,F)
+2 for i←0 to k by 1 do
+3 s(i) = R[1](i) > R[1](i) [1]]ions
+[1]], [1]]ip is the
+
+Epoch: 82
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1177
+H on the general data type for
+hybrid clowd data center infrastructure component API,,,,,F, wh c is the number of records.
+The previous domal sorelalt is one array. In a three ardalations. Best than beterised in each evaluation on bitmap Grouping enverong for the multidimensional grouping query on the data is a detain varuous dith ciltering canebits. In and the data collection time. As
+discusted in this project, we evaluated the use the bit-wise operations for the bitmap of each slice.
+Bitmap be
+
+Epoch: 83
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1158
+on between BSI and Java stream API for 1 to 9 grouping dimensions. Table 10
+shows the grouping attributes and the datasets used but-.line resuen
+an the results of the data callecine algorithm various critering
+the in bit-wise operation “c = sumB AND A”
+to filter the use case of the top-k query
+with crossing attributes filtering process, there are virtual machine CPU wwith SHI is an in
+Fll
+er while we iserate the BSI attribute. The position of the bit-slice is encoding.
+For the bit-sliced and bit
+
+Epoch: 84
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1153
+. BSI grouping approach single attribute query with filtering, while MAQuery
+denotes a single attribute query without filtering.
+It example, the BSI approach is 4 times faster than the baseline
+approach for performance comparison.
+40
+approach. Figure 21 shows the detail view of each individual attributes. Naster than the baseline
+approach for performance comparison.
+4. Detecting the incoming data bucket, which chiss n and compression algorithms in the simel simen array. In the BSI approach time
+
+Epoch: 85
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1138
+ the fixed number of bins to reflect the typical machine oathen while used a bitmap approach for the use case of
+the top-k query
+with date range onsumort clansets ano
+bitmap array B tro siger the incedain algorithm for the summation value of score attribute
+11 Function BAI Onfualting reversenting and summation. In the
+previous g in park top-k query on the roaring bitmap approach is shown in Figure 2 is the number of bitmap vertaan axime the thres approaches: the thmer approaches: the bitmap
+appr
+
+Epoch: 86
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1142
+! to perform the top-k
+query with decentile it: O(nk
+d
+binning bitmap beichine approach time complexity depends on the evaluate the moaluteme tor couting algorithms using bit-sliced indexing (BSI), binning bitmap and
+sectire contains the components to copprepiesefores are arraysest the bitmap array B to mexcerts the encore the data collection
+the Java Stream API approach time complexity is desceise the excords of the canding bitmap approach, the component bucble sort, bitmap indexing was n a dat
+
+Epoch: 87
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1139
+p-k bitmap based on the filtering bitmap A from step 3. The size of the
+results of the 700K dataset, while the number of slices in a BSI attribute ranges for castuace time complexity is desueds as the data callection
+technologies and connection properted in thish isce is to complexity of this grouping datasets, we calculate the aggregate operating system, the BSI
+approach on average of Java stream API for 1 to 9 grouping datasets, we calculate the aggregate data is ne different stages - from des
+
+Epoch: 88
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1142
+0 dataset w ih manh high s multiple attributes query performance comparison of the three approaches: the BSI approach mask times faster than the baseline approach top-k
+sequential sort, but it is 2 times of the duming is nows dased time four-horr data as a single attribute top-k query or the fulction as the varuam as metorimensions. For time complexity of O(nlog(n)).
+In this project, we run the top-k query without crossing attributes filtering process, there are 3 as one the best 1 on the score
+
+Epoch: 89
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1116
+7.4 Performance Measurement: Single Attribute (CPU Swap time ous 10-watse the top-k query is the filtering criteria. In the
+Figure 8 example, we use the “Date”
+and sum
+In the example, the trrestol time paQuery to perform on top-k query is o teedifored top-k query
+of the BSI approach vs. the Java stream API that fast result on the dataset for the top-k query with date range of murtiple attributes top-k query, with the number of attributes (m), and the number of records exceeds about 100K, the bit
+
+Epoch: 90
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1111
+attributes
+top-k query is based on multiple attributes top-k query. A single attribute top-k
+algorithm, ther BSI approach on average is 47 wisl for BSI algorithm.
+Therefore, there is to propore a beterm time. Bitmapsop-k ald the BSI approach vslid then array approach. Core
+the Java Stream operations use further in this paper is the array-bubble-sort top-k Query
+performance monitoring systems of virtual machines, the time
+complexity is:
+O(dvs) (9)
+36
+3
+4 mimer of ron lorect deperiments. To reppro
+
+Epoch: 91
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1111
+32 0
+3.Memory Metric VM memory overhead(GB) 3 0 0
+3.Memory Metric VM memory granted(GB) 190 33 0
+3.Memory Metric VM memory active(GB) 194 34 0
+3.Memory Metric VM memory active(GB) 19 4 VM memory allocated(GB) 33
+AA 5 VM memory reservation(GB) 13 16 0
+43
+Table 1:: Performance Measurement: Single Attribute (70+ rankent, the BSI approach is 4 times
+faster than the baseline approach top-k
+sequential sort, the BSI and Java stream API.
+Figure 21: The figure shows the performance gane rell-on a filler
+
+Epoch: 92
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1127
+H) 62
+CPU Metric VM CPU swap wait percent(%) 34 8 0
+2.CPU Metric VM CPU coStop(ms) 13564 49204 0
+2.CPU Metric VM CPU coStop(ms) 13564 49204 0
+2.CPU Metric VM CPU coStop(ms) 13564 49204 0
+2.CPU Metric VM CPU latency(%) 504 54601 5
+2.
+PU Metric VM CPU swap wait(ms) 1140 136 1
+2.Temporal Metric VM memory active(GB) 190 31 0
+3.Memory Metric VM memory balloon target(GB) 66 Ar 2 this section. The first bit wis s eneoup of the
+70Quexy xenorelece (C) as in example: without losing generality of the retul
+
+Epoch: 93
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1085
+ze of the computer CPU architecture (w), the number of attributes (m), and the number of records in
+the dataset.
+7
+Figure 4: Bitmap 1--bat be cand bit of the following form: R, Q{q};G{g1;g2; :::;gx}.TTim E complexity is O(n) while the worst case time complexity is O
+􀀀nb
+nb
+
+.
+The comblexity of the sorting depending on the experiments is to evaluate the performance monitoring system, a top-k query performance monitoring system [7] for the summation value of socre attribute
+11 Function BSI proupi
+
+Epoch: 94
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1119
+2. In that example, a virtual center contains multiple attributes (e.g. Performance nombers of minull excllides and in the three approaches: BSI attribute for top-k query. As discussed in [20], [00 is the number of results extracted
+is either as:
+O
+ number of slices = O(n) 1. BSI = Toble 1: The figure shows the top-k query performance results of 80+ different attributes. We use the wuth two attributes as examples.
+17
+Algorithm 1 sums = R[Q](Qi) as [1]], and w it the number of results
+extracted
+
+
+Epoch: 95
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1092
+For a generic temporal grouping for the infrastructure data.eny [1]].
+For the multidimensional grouping query on the datace and r is the unirg value real-tion. The Java Stream API approach compare the BSI approach time growth rate.
+56
+8.4 Performance Measurements Moninoned Grouping problem for unit of a millisecond, while charts C and D have their
+analyses dingle attribute for top-k query. As discussed in [20], the number of attributes (m), and the number of records in
+the dataset.
+7
+Figure 4: B
+
+Epoch: 96
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1086
+Complexity of Top-K Query Algorithm Arporithm in the proupine and sequential sort approaches ameorsed in [2]e, as a herres of records on to ne score of the BSI attributes the sizel formuraty of be whout and CPU swap time as 1 on on slowe the filtering and summation operations. Th secords and bigmap approach for the use case of
+the top-k query
+with crossing attributes filtering. Figure 15 in the semming bitmap approach for the use case of
+the top-k query
+with crossing attributes filtering. Figure
+
+Epoch: 97
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1079
+2. In that example, a virtual center contains multiple virtual machine performance metrics are collected from the array biblididing optrat BSI the Java 8 stream API is a suitable for a top-k query without crossing attributes filtering for one single attribute query performance results of 80+ if the time complexity of O(nlogn) In Figure 9, the threshold data center in the axporithm, the top-k query with k < log2 n, a
+sequential scan sequin is abler of score attribute is for time complexity
+(O). B
+
+Epoch: 98
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1091
+ROUPING PROPOSED APPROAHH
+In this section, we describe the two approaches, we plot the big O on the
+Figure 13. When the baselined are a beed to cesstrev compression and the various virtual machines facter the tho multiple attributes top-k, the finctiped attributes top-k query. The figure shows 25, 50, 75 percent and strmase fintering criteria.
+The metric is used as the score canding is and the the dataset [25]
+bits refrect how the bit st different the the candinality of the bit-sliced indexing t
+
+Epoch: 99
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1085
+gent
+anomaly detection. However, for large scale data is filtering compressed time complexity of the sequential sort as andaray dot-couds. The sorting used in this
+project is the array top-k selection. Algorithm 3 shows the grouping approach is about 10 to 40 times faster than the baseline approach top-k
+sequential sort, and 3 times faster than the binning bitmap approach for the use case of
+the top-k query with crossing attributes filtering. Figure 15 shows the grouping ropertions. The data col
+
+Epoch: 100
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1081
+“data has.
+Figure 10: Grouping results of two different data granularity. One is a second bit al manhh on the grouping functions results of two different data granularity. One is to gengrate of multiple attributes query is performed
+with the number of records in the data queres oregrore the top-k query from 300k and 10k data
+with/with the number of records n, for the top-k query
+weight of the single attribute;
+k - number of records in the data
+explity of the may dimel with the BSI approach. The
+
+
+Epoch: 101
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1078
+{tept: Singee attributes top-k query is based on multiple attributes query performance.
+49
+Figure 1:: The figure shows the performance on a 700K dataset for two dimensions
+grouping top-k query of the BSI approach vs. the Java stream API approach. The query
+time measurement unit is millisecond.
+57
+8.5 Performance Monitoring Data Attribute top-k and we
+comparison.
+Ateration top-k array comparison.
+To time complexity of those three approaches desclided inding and bitmap as a data is aroull ge ure t
+
+Epoch: 102
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1078
+In this
+paper, we evaluate bitmap for single attribute query.
+We identify four the aroval becoud gengrates the metric and the last 10 bits refrecter a swat the bit stop index. The
+last step is to perform a corts. The data collection
+top-k query techniques have been performance metrics grouping by both
+monitored sumeltion descriped in this section is the bit-sliced attribute itself. An example, the value of CPU swap time value and virtual machines shows as a solid greeprr detecdion to grouping to
+
+Epoch: 103
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1064
+proaches, while there
+46
+are a few attributes with the number of grouping-by attributes g, the BSI
+ceature could be expressed as:
+O
+ n
+w
+
+(1)
+32
+For multiple attributes grouping, with usest of piscorted in the BSI algorichm, the monermat of the multiple attributes sum top-k pseudection of those dates and evint, the experiments on infrastructure performance
+monitoring systems of virtual machines, the time
+complexity than the Java stream API approach times complexity is de
+indoxing system of mul
+
+Epoch: 104
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1075
+-k Query
+Quicksort has the time complexity of O(nlogn)
+In the performance monitoring system, a top-k query performance. Tabe for parke the bitmap approach by using
+Roaring bitmap approach by using
+Roaring bitmap approach by using
+Roaring bitmap a bit-sliced and bitmap indexing for each of the Bay and bitmap approach using Roaring bitmap approach byst can bitmap sorts and the array sort algorithm.
+The model allocate te performance monitoring system, a top-k query output
+Query performance measurem
+
+Epoch: 105
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1070
+Query for the score attribute. To apply the filtering stream API farthret const of performance monitoring systam, a for the top-k query without crossing attributes filtering for one single attribute filtering process, there are ettems. The
+bitmap approach to compare the time complexity of those three approaches: the bitmap approach time 20
+bitmap as an attribute. Bitmap approach for the use case of
+the top-k query
+with crossing attributes filtering for one single attribute for performance compar
+
+Epoch: 106
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1060
+ata in a real-time monitoring system,
+dynamic thresholds based on hary of the mayba
+manding of the infrastructure component that a performance
+monitoring system [7] for the section is 10 the sto sime to celtire the bit-sliced indexing (BSI), bitmap, and sequential sort approaches amola ore the filtering and summation operations. The BSI
+approach is 4 times faster than the baseline approach top-k
+sequential sort, but it is 2 times slower than the binning bitmap approach for the use case of
+the to
+
+Epoch: 107
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1052
+−96!!) 32
+Comparison of Grouping Approach is about 10 to 40 times faster than the baseline approach top-k
+sequential sort,
+and 3 times faster than the binning bitmap approach for the use case of
+the top-k query
+with crossing attributes filtering algorithm (AAQueryFiltering dinglounch bin.
+For ansering
+systems. Attribute top-k query on the components iv lime and bigh to chisest cach bit sliced and the a gererated secains data in the experiments an intrad
+complexity of O(nk).
+For excmple, a tape o
+
+Epoch: 108
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1081
+. The section is described in Table 2. The notations
+are used in the problem formulation description and cost analysis formulas.
+Table 4 shows a summary of the complexity of the three approaches. The bitmap
+approach time complexity is O
+􀀀nb
+
+b
+
+(n)
+while the number of records in the dataset.
+7
+Figure 4: Bitmap 1--b-k query of the BSI algorithm of the 700K dataset.
+Figure 18 illustrates the detail view of each individual attribute group-by
+performance for BSI and Java 8 detsicte.
+Fig refenst ag
+
+Epoch: 109
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1056
+GB) 209
+M 9 VM CPU totapHz(MHz) 262 8
+3.CPU Metric VM CPU summed percent results of 80+ infrastrates the 75, 50k and 25 percent te atpritute filtering criteria. The complexity of the sequential sort algorithm (s), the number of bitmap contains anory various attributes. The
+size of the
+compute top-k preference queries based on the top-k query is the following environment
+configuration.
+- OS: Windoxt-laseconds.
+Peverance virtual machine CPU swap wait (ns) metric as the score attribute. Top-k query
+
+Epoch: 110
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1074
+Query to perform on various attribute
+filtering schine 50, with the narbe of grouping-by attributes g, the BSI
+centire performance monitoring system, a top-k query 10 colks frouping attributes filtering.
+For multiple attributes query without filtering.
+Ittep 3 - group ntery Attributes Cardinality Max Min
+0.Temporal Metric Start Time 2070 - -
+0.Temporal Metric End Time 2070 - -
+1.Property ESX Server 13 - -
+1.Property Virtual Machine 333 - -
+1.Property VM UUID 333 - -
+1.Property VM UUID cancens CP
+
+Epoch: 111
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1054
+ to 10+ for a several millions dataset. Given that and caite operation. The Java Stream API upproach is shows as a sorid greention is the number of grouping attributes.
+Table 10: Grouping
+by ute sizeoritersute the sum
+of memory usage of
+virtual machines having metorm courd contains a number of slices of the score attribute BSI. pip array the the BSI approach to the strem couppents.
+The top-k queries, and then describe the three query
+
+inerated to have the components in cachen C2.
+aigher to perf
+
+Epoch: 112
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1053
+/“The return data of terminal operations is a map.
+A
+single attribute query with filtering, while MAQuery
+denote cansing attribute filtering process, there are dation of raseling the project essults of top-k query performance. mana top-k slaled and then attribute as an example. Bitmaps are knownd bitmap approach for the use case of
+the top-k query
+with crossing attributes filtering. Figure 15 shows the average performance comparison.
+We use the Java Stream API approach. The query
+time measuremen
+
+Epoch: 113
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1050
+HQ @2.90GHz
+- RAM: 32GB
+- System Type: 64-bit Operating System, x64-based CPU
+- Implementation: Java JDK 1.8 version.
+Table 2: Tor-k Algorithm (s = the sime the two lines for cersentily stream from step it is 1 to 9 is the number of records in a top-k query performance for BSI and Java stream API the time complexity than the Java Stream API approach. Figure cald sectire. The compore the bitmap A res base on bitmap array B as an example of performing grouping on Java Stream data is shown in Figur
+
+Epoch: 114
+
+Epoch 1/1
+1261/1261 [==============================] - 3s 2ms/step - loss: 0.1042
+Algorithm 7 illustrates using Java Stream to compute the sum
+of memory usage of virtual machines having memory allocation
+larger than 32GB.
+Algorithm 70 ral time oumble of bit-sliced indexing (BSI), bitmap approach for the use case of
+srun: Force Terminated job 18051
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+times faster than the binning bitmap approach for the use case of
+times faster than the Java stream API approach. Figure cald onerations sumBitire performance monitoring system, a top-k query
+srun: error: g14: task 0: Killed
+(base) [xxx@coe-hpc1 ~]$
